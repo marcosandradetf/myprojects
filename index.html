@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main class="birth">
+    <h1>Quantos dias para meu aniversário</h1>
+
+    <form class="form" name="form_main">
+      <h2>Sua data:</h2>
+      <label class="escolha1" for="dia">Dia:</label>
+      <input class="dia" name="dia" id="dia" type="number" min="1" max="31"> <br>
+      <label class="escolha2" for="mes">Mês:</label>
+      <input class="mes" name="mes" id="mes" type="month" min="2023-01" max="2023-12"> <br>
+      <label class="days" for="days">RESULTADO: </label>
+      <span class="result" id="days"></span> <br>
+      <button class="button" type="button" onclick="countDays()">CALCULAR DIAS</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
