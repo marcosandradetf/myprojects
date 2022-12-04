@@ -9,20 +9,22 @@
 </head>
 
 <body>
-  <main class="birth">
-    <h1>Quantos dias para meu aniversário</h1>
+  <div class="pai">
+    <main class="birth">
+      <h1>Quantos dias para meu aniversário</h1>
 
-    <form class="form" name="form_main">
-      <h2>Sua data:</h2>
-      <label class="escolha1" for="dia">Dia:</label>
-      <input class="dia" name="dia" id="dia" type="number" min="1" max="31"> <br>
-      <label class="escolha2" for="mes">Mês:</label>
-      <input class="mes" name="mes" id="mes" type="month" min="2023-01" max="2023-12"> <br>
-      <label class="days" for="days">RESULTADO: </label>
-      <span class="result" id="days"></span> <br>
-      <button class="button" type="button" onclick="countDays()">CALCULAR DIAS</button>
-    </form>
-  </main>
+      <form class="form" name="form_main">
+        <h2>Sua data:</h2>
+        <label class="escolha1" for="dia"></label>
+        <input class="dia" name="dia" id="dia" type="number" min="1" max="31"> <br>
+        <label class="escolha2" for="mes"></label>
+        <input class="mes" name="mes" id="mes" type="month" min="2023-01" max="2023-12"> <br>
+        <label class="days" for="days">RESULTADO: </label>
+        <span class="result" id="days"></span> <br>
+        <button class="button" type="button" onclick="countDays()">CALCULAR DIAS</button>
+      </form>
+    </main>
+  </div>
   <script src="script.js"></script>
 
   <!--

@@ -1,3 +1,8 @@
+*{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -5,37 +10,120 @@ html, body {
   padding: 0;
 }
 
-
+.pai{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
 
 .birth{
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  align-items:center;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  
-
-
-  
-  
   border: 2px solid green;
-  
-  
   background-image: url("wallpaper.png");
   background-position: center;
   background-size: cover;
   padding: 10px;
-  
 
   
-  
+  position: absolute;
+  width: 700px;
+  height: 100vh;
+  top: 50%;
+  margin-top: -50vh;
+  left: 50%;
+  margin-left: -350px;
+  background-color: rgb(164, 223, 255)
 
+}
 
-  
-  
+.form{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 50%;
+  margin-top: -150px;
+  left: 50%;
+  margin-left: -250px;
+  border: 2px solid #001f62;
+  border-radius: 10px 10px 0 0 ;
 }
 
 
+
+.dia{
+  position: absolute;
+  height: 20px;
+  width: 50px;
+  top: 35%;
+  left: 25%;
+  margin-top: -10px;
+  margin-left: -25px;
+
+}
+
+.mes{
+  position: absolute;
+  height: 20px;
+  width: 120px;
+  top: 35%;
+  right: 25%;
+  margin-top: -10px;
+  margin-left: -60px;
+
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  background-color: #001f62;
+  border-radius: 10px 10px 0 0 ;
+  position: absolute;
+  height: 30px;
+  width: 500px;
+  margin-top: -15px;
+  margin-left: -250px;
+  left: 50%;
+  top: 4%;
+}
+
+.button{
+  background: #001f62;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  height: 20px;
+  width: 120px;
+  bottom: 35%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -60px;
+  
+}
+
+.days{
+  position: absolute;
+  height: 20px;
+  width: 120px;
+  bottom: 45%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -60px;
+  color: white;
+}
+.result{
+  position: absolute;
+  height: 20px;
+  width: 120px;
+  bottom: 45%;
+  right: 10%;
+  margin-top: -10px;
+  margin-left: -60px;
+  color: white;
+}
 
